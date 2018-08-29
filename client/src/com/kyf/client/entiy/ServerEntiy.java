@@ -1,8 +1,8 @@
-package com.kyf.client.bean;
+package com.kyf.client.entiy;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ServerBean {
+public class ServerEntiy {
     public String serverAddress;                //服务器地址
     public AtomicInteger failureTimes;          //失败次数
     public String getServerAddress() {
@@ -20,15 +20,15 @@ public class ServerBean {
     public void setFailureTimes(AtomicInteger failureTimes) {
         this.failureTimes = failureTimes;
     }
-    public ServerBean() {
+    public ServerEntiy() {
     }
-    public ServerBean(String serverAddress, AtomicInteger failureTimes) {
+    public ServerEntiy(String serverAddress, AtomicInteger failureTimes) {
         this.serverAddress = serverAddress;
         this.failureTimes = failureTimes;
     }
     @Override
     public String toString() {
-        return "ServerBean{" +
+        return "ServerEntiy{" +
                 "serverAddress='" + serverAddress + '\'' +
                 ", failureTimes=" + failureTimes +
                 '}';

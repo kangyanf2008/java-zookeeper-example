@@ -1,6 +1,6 @@
 package com.kyf.client.server;
 
-import com.kyf.client.bean.ServerBean;
+import com.kyf.client.entiy.ServerEntiy;
 import com.kyf.client.utils.ZooKeeperUtils;
 import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
@@ -13,7 +13,7 @@ public class ServerList {
     //服务应用名
     private static String applicationName;
     //服务地址列表
-    public static volatile List<ServerBean> serverList = new ArrayList<ServerBean>();
+    public static volatile List<ServerEntiy> serverList = new ArrayList<ServerEntiy>();
     private static AtomicInteger serverNum = new AtomicInteger(0);
     private static AtomicInteger robinIndex = new AtomicInteger(0);
     private static Stat stat = new Stat();
@@ -30,7 +30,7 @@ public class ServerList {
             if(zk.exists(applicationName, true) != null){
                 List<String> serverList = zk.getChildren(applicationName,true);
                if(serverList != null && serverList.size() > 0){
-                   List<ServerBean> serverListT =  new ArrayList<ServerBean>();
+                   List<ServerEntiy> serverListT =  new ArrayList<ServerEntiy>();
 
                    serverList.forEach(s->{
                        //服务进行监听上下线
@@ -45,7 +45,7 @@ public class ServerList {
                        }
                        */
                        //存放服务列表
-                       serverListT.add(new ServerBean(s,new AtomicInteger(0)));
+                       serverListT.add(new ServerEntiy(s,new AtomicInteger(0)));
                    });
                    synchronized (ServerList.serverList){
                        //更新服务列表
@@ -71,9 +71,9 @@ public class ServerList {
     }
 
     //踢掉不可用的服务
-    public static void removeServer(ServerBean serverBean){
+    public static void removeServer(ServerEntiy serverEntiy){
         synchronized ( ServerList.serverList) {
-            ServerList.serverList.remove(serverBean);
+            ServerList.serverList.remove(serverEntiy);
             ServerList.serverNum = new AtomicInteger(ServerList.serverList.size());
             if(ServerList.robinIndex.intValue() > ServerList.serverNum.intValue() - 1){
                 ServerList.robinIndex = new AtomicInteger(0);
@@ -82,8 +82,8 @@ public class ServerList {
     }
 
     //获取调用服务器信息
-    public static  ServerBean robinServerAddress() {
-        ServerBean serverBean = null;
+    public static ServerEntiy robinServerAddress() {
+        ServerEntiy serverEntiy = null;
         //先使用后累加
         int index = ServerList.robinIndex.getAndIncrement();
         //判断是否大小总服务器数。假如大于。则取会下标越界
@@ -104,10 +104,10 @@ public class ServerList {
         }// end while
 
         if(index < ServerList.serverNum.intValue()){
-            serverBean = serverList.get(index);
-            if (serverBean != null) {
-    System.out.println(serverBean);
-                return serverBean;
+            serverEntiy = serverList.get(index);
+            if (serverEntiy != null) {
+    System.out.println(serverEntiy);
+                return serverEntiy;
             } else {
                 System.err.println("robinIndex " + index + " 未找到服务器信息");
                 flushServerlist();//刷新服务列表
@@ -117,7 +117,7 @@ public class ServerList {
         //判断服务器列表是否为空
         index = ServerList.robinIndex.getAndIncrement();
         if(index < ServerList.serverNum.intValue()) {
-            serverBean = serverList.get(index);
+            serverEntiy = serverList.get(index);
         }
         //更新轮询下标值
         synchronized (ServerList.robinIndex) {
@@ -125,7 +125,7 @@ public class ServerList {
                 ServerList.robinIndex = new AtomicInteger(0);
             }
         }
-        return serverBean;
+        return serverEntiy;
 
     }
 

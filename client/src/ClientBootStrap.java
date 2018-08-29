@@ -1,13 +1,10 @@
-import com.kyf.client.bean.ServerBean;
-import com.kyf.client.error.TimeOutException;
+import com.kyf.client.entiy.ServerEntiy;
 import com.kyf.client.server.ServerList;
 import com.kyf.client.utils.HttpClientUtil;
 import com.kyf.client.utils.ZooKeeperUtils;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
-
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ClientBootStrap {
     public static void main(String[] args) {
@@ -41,7 +38,7 @@ public class ClientBootStrap {
             @Override
             public void run() {
                 int i=0;
-                ServerBean serverBean = ServerList.robinServerAddress();
+                ServerEntiy serverBean = ServerList.robinServerAddress();
                 //处理是否成功标记
                 boolean resutlSucess = false;
                 //服务器列表为空，则结束执行
@@ -70,9 +67,9 @@ public class ClientBootStrap {
             @Override
             public void run() {
                 for(int i=0; i< 100; i++){
-                    ServerBean serverBean = ServerList.robinServerAddress();
-                    String result = HttpClientUtil.get2("http://"+serverBean.serverAddress  + "?data="+i, null);
-                   // System.out.println("thread2 "+ serverBean +"_" + result+"\t");
+                    ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                    String result = HttpClientUtil.get2("http://"+ serverEntiy.serverAddress  + "?data="+i, null);
+                   // System.out.println("thread2 "+ serverEntiy +"_" + result+"\t");
                 }
             }
         }).start();
@@ -80,9 +77,9 @@ public class ClientBootStrap {
             @Override
             public void run() {
                 for(int i=0; i< 100; i++){
-                    ServerBean serverBean = ServerList.robinServerAddress();
-                    String result = HttpClientUtil.get2("http://"+serverBean.serverAddress  + "?data="+i, null);
-                    // System.out.println("thread2 "+ serverBean +"_" + result+"\t");
+                    ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                    String result = HttpClientUtil.get2("http://"+ serverEntiy.serverAddress  + "?data="+i, null);
+                    // System.out.println("thread2 "+ serverEntiy +"_" + result+"\t");
                 }
             }
         }).start();
@@ -90,9 +87,9 @@ public class ClientBootStrap {
             @Override
             public void run() {
                 for(int i=0; i< 100; i++){
-                    ServerBean serverBean = ServerList.robinServerAddress();
-                    String result = HttpClientUtil.get2("http://"+serverBean.serverAddress  + "?data="+i, null);
-                    // System.out.println("thread2 "+ serverBean +"_" + result+"\t");
+                    ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                    String result = HttpClientUtil.get2("http://"+ serverEntiy.serverAddress  + "?data="+i, null);
+                    // System.out.println("thread2 "+ serverEntiy +"_" + result+"\t");
                 }
             }
         }).start();
@@ -100,9 +97,9 @@ public class ClientBootStrap {
             @Override
             public void run() {
                 for(int i=0; i< 100; i++){
-                    ServerBean serverBean = ServerList.robinServerAddress();
-                    String result = HttpClientUtil.get2("http://"+serverBean.serverAddress  + "?data="+i, null);
-                   // System.out.println("thread3 "+ serverBean +"_" + result+"\t");
+                    ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                    String result = HttpClientUtil.get2("http://"+ serverEntiy.serverAddress  + "?data="+i, null);
+                   // System.out.println("thread3 "+ serverEntiy +"_" + result+"\t");
                 }
             }
         }).start();

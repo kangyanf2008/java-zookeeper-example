@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231b7485-aff4-426e-845b-262057d274a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/zookeeper-3.4.12-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kyf/client/bean/ServerBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kyf/client/error/TimeOutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kyf/client/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/lib/nanohttpd-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/com/kyf/server/utils/ServerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/com/kyf/server/utils/ServerInterfaceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/zk_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/zk_lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/ClientBootStrap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ClientBootStrap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/ClientBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ClientBootStrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/com/kyf/client/server/ServerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/com/kyf/client/server/ServerList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/com/kyf/client/utils/ZooKeeperUtils$ZooKeeperInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/com/kyf/client/utils/ZooKeeperUtils$ZooKeeperInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/com/kyf/client/utils/ZooKeeperUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/com/kyf/client/utils/ZooKeeperUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClientBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBootStrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyf/client/bean/ServerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyf/client/entiy/ServerEntiy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/zk_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/libraries/zk_lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/server/com/kyf/server/ServerBootStrap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/server/com/kyf/server/ServerBootStrap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/server/com/kyf/server/ServerBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/server/com/kyf/server/ServerBootStrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/com/kyf/server/ServerBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/com/kyf/server/ServerBootStrap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,45 +19,46 @@
     <session id="1552879588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="12" />
-          <entry key="java" value="19" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="3510" />
+          <entry key="dummy" value="20" />
+          <entry key="java" value="3511" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3510" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="3511" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientBootStrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="61" column="66" lean-forward="true" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+            <state relative-caret-position="152">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +69,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/HttpClientUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/client/error/TimeOutException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/client/entiy/ServerEntiy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -114,6 +137,9 @@
       <find>System.out.println</find>
       <find>serverNum</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java" />
         <option value="$PROJECT_DIR$/src/com/kyf/client/utils/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/src/ClientBootStrap.java" />
+        <option value="$PROJECT_DIR$/src/com/kyf/client/entiy/ServerBean.java" />
+        <option value="$PROJECT_DIR$/src/com/kyf/client/entiy/ServerEntiy.java" />
       </list>
     </option>
   </component>
@@ -153,7 +181,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,17 +191,6 @@
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-3.4.12.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,6 +198,34 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="entiy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
@@ -191,12 +235,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535521951934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535533119698" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/zookeeper-3.4.12-javadoc.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -270,12 +315,13 @@
       <updated>1535343747658</updated>
       <workItem from="1535343751303" duration="25000" />
       <workItem from="1535343956950" duration="628000" />
-      <workItem from="1535350018826" duration="39146000" />
+      <workItem from="1535350018826" duration="43720000" />
+      <workItem from="1535533186243" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39799000" />
+    <option name="totallyTimeSpent" value="44616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +336,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,8 +345,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4989339" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.7670576" visible="true" weight="0.38244852" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7670576" weight="0.12134345" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4989339" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -361,13 +407,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/server/getServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/server/getServer.java" />
     <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -460,41 +500,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/bean/ServerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/error/TimeOutException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperWatchUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperWatchUtils.java" />
     <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/Watcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -502,22 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientBootStrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="111" column="72" lean-forward="true" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -526,21 +520,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientBootStrap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/utils/ZooKeeperUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="61" column="66" lean-forward="true" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+        <state relative-caret-position="456">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/server/ServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/error/TimeOutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/client/entiy/ServerEntiy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
