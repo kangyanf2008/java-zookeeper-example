@@ -108,7 +108,7 @@ public class ClientBootStrap {
         }).start();
 */
 
-        //测试服务异常后，路踢掉异常服务
+        //三个线程测试服务异常后，路踢掉异常服务
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -150,6 +150,87 @@ public class ClientBootStrap {
             }
         }).start();
 
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                int i = 0;
+                while (true) {
+                    try {
+                        //处理是否成功标记
+                        boolean resutlSucess = false;
+                        ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                        //讲行服务调用，接口访问超时进行重试操作
+                        for( int j=0; j < tryNum ; j++) {
+                            String result = "";
+                            try {
+                                result = HttpClientUtil.get2("http://" + serverEntiy.serverAddress + "?data=" + i, null);
+                                resutlSucess = true;
+                            } catch (TimeOutException e){
+                                //失败后，进行服务失败次数累加
+                                serverEntiy.setFailureTimes(new AtomicInteger(serverEntiy.getFailureTimes().intValue()+1));
+                            }
+                            //成功之后 打印返回结果
+                            if(resutlSucess){
+                                System.out.println(serverEntiy +"_" + result+"\t");
+                                break;
+                            }
+                        }// end if
+
+                        //重试失败后。路踢掉不可用服务
+                        if(!resutlSucess){
+                            ServerList.removeServer(serverEntiy);
+                        } else {
+                            i++;
+                        }
+                        Thread.sleep(1000L);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        }).start();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                int i = 0;
+                while (true) {
+                    try {
+                        //处理是否成功标记
+                        boolean resutlSucess = false;
+                        ServerEntiy serverEntiy = ServerList.robinServerAddress();
+                        //讲行服务调用，接口访问超时进行重试操作
+                        for( int j=0; j < tryNum ; j++) {
+                            String result = "";
+                            try {
+                                result = HttpClientUtil.get2("http://" + serverEntiy.serverAddress + "?data=" + i, null);
+                                resutlSucess = true;
+                            } catch (TimeOutException e){
+                                //失败后，进行服务失败次数累加
+                                serverEntiy.setFailureTimes(new AtomicInteger(serverEntiy.getFailureTimes().intValue()+1));
+                            }
+                            //成功之后 打印返回结果
+                            if(resutlSucess){
+                                System.out.println(serverEntiy +"_" + result+"\t");
+                                break;
+                            }
+                        }// end if
+
+                        //重试失败后。路踢掉不可用服务
+                        if(!resutlSucess){
+                            ServerList.removeServer(serverEntiy);
+                        } else {
+                            i++;
+                        }
+                        Thread.sleep(1000L);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        }).start();
         //启动线程调用服务 ===============end
 
 
