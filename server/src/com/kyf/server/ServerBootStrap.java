@@ -3,12 +3,11 @@ package com.kyf.server;
 import com.kyf.server.utils.ServerInterfaceUtil;
 import com.kyf.server.utils.ZooKeeperUtils;
 import org.apache.zookeeper.*;
-import org.apache.zookeeper.data.ACL;
 
 public class ServerBootStrap {
     public static void main(String[] args) {
         String applicationName  = "/server" ;
-        int serverPort = 65532;
+        int serverPort = 65533;
         //开启服务地址
         String serverAddress  = "192.168.30.19:"+serverPort ;
         //zk连接地址

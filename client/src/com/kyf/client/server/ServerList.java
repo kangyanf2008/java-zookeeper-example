@@ -106,7 +106,7 @@ public class ServerList {
         if(index < ServerList.serverNum.intValue()){
             serverEntiy = serverList.get(index);
             if (serverEntiy != null) {
-    System.out.println(serverEntiy);
+//System.out.println(serverEntiy);
                 return serverEntiy;
             } else {
                 System.err.println("robinIndex " + index + " 未找到服务器信息");
@@ -118,6 +118,7 @@ public class ServerList {
         index = ServerList.robinIndex.getAndIncrement();
         if(index < ServerList.serverNum.intValue()) {
             serverEntiy = serverList.get(index);
+//System.out.println(serverEntiy);
         }
         //更新轮询下标值
         synchronized (ServerList.robinIndex) {
