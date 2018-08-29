@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef58cd3f-a657-4ae1-a0d4-32a0b143b9c0" name="Default Changelist" comment="" />
+    <list default="true" id="ef58cd3f-a657-4ae1-a0d4-32a0b143b9c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/lib/zookeeper-3.4.12-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/com/kyf/client/bean/ServerBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/com/kyf/client/error/TimeOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/com/kyf/client/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/nanohttpd-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterfaceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/libraries/zk_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/libraries/zk_lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/ClientBootStrap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/out/production/client/ClientBootStrap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/ClientBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/out/production/client/ClientBootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/server/ServerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/server/ServerList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/utils/ZooKeeperUtils$ZooKeeperInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/utils/ZooKeeperUtils$ZooKeeperInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/utils/ZooKeeperUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/out/production/client/com/kyf/client/utils/ZooKeeperUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/ClientBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/ClientBootStrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/com/kyf/client/server/ServerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/com/kyf/client/server/ServerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/com/kyf/client/utils/ZooKeeperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/com/kyf/client/utils/ZooKeeperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/zk_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/zk_lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/com/kyf/server/ServerBootStrap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/com/kyf/server/ServerBootStrap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/com/kyf/server/ServerBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/com/kyf/server/ServerBootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyf/server/ServerBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyf/server/ServerBootStrap.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +47,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="13" />
-          <entry key="java" value="2" />
+          <entry key="class" value="17" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="17" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1215" />
+          <entry key="java" value="1499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1215" />
+          <entry key="JAVA" value="1499" />
         </counts>
       </usages-collector>
     </session>
@@ -48,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyf/server/ServerBootStrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+            <state relative-caret-position="323">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,28 +84,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooDefs.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/CreateMode.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooKeeper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="703">
               <caret line="174" column="18" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterfaceUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-70">
+              <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ZooKeeperUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="242">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1344#1345#0" expanded="true" />
@@ -126,15 +167,24 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>return newFixedLengthResponse(&quot;result = &quot;+data);</find>
+      <find>serverPort</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/kyf/server/ZooKeeperUtils.java" />
         <option value="$PROJECT_DIR$/src/com/kyf/server/utils/ZooKeeperUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterfaceUtil.java" />
         <option value="$PROJECT_DIR$/src/com/kyf/server/ServerBootStrap.java" />
       </list>
     </option>
@@ -145,12 +195,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -168,7 +219,13 @@
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
@@ -186,8 +243,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535366017813" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535521951915" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/nanohttpd-2.2.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -197,6 +254,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kyf\project\idea\demo\server\src\com\kyf\server\utils" />
       <recent name="D:\kyf\project\idea\demo\server\lib" />
     </key>
   </component>
@@ -243,19 +301,19 @@
       <option name="presentableId" value="Default" />
       <updated>1535343708356</updated>
       <workItem from="1535343711376" duration="39000" />
-      <workItem from="1535343946272" duration="13778000" />
+      <workItem from="1535343946272" duration="27628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13817000" />
+    <option name="totallyTimeSpent" value="27667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49810606" visible="true" weight="0.22707888" />
-      <window_info id="Structure" order="1" sideWeight="0.50189394" side_tool="true" visible="true" weight="0.22707888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931413" visible="true" weight="0.22707888" />
+      <window_info id="Structure" order="1" sideWeight="0.5006859" side_tool="true" visible="true" weight="0.22707888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -264,7 +322,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42857143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21018419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +330,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -305,15 +363,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ZooKeeperUtils.java">
+    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooDefs.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -324,20 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/CreateMode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooDefs.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/common/PathUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -345,17 +391,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/src.zip!/java/lang/Shutdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/nanohttpd-2.2.0.jar!/fi/iki/elonen/NanoHTTPD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/CreateMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ZooKeeperUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../tool/jdk1.8.0_181/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="970" column="30" selection-start-line="970" selection-start-column="30" selection-end-line="970" selection-end-column="30" />
+          <folding>
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooKeeper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="703">
           <caret line="174" column="18" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyf/server/utils/ServerInterfaceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyf/server/ServerBootStrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -10,7 +10,7 @@ import java.io.IOException;
 public class ZooKeeperUtils {
     private static String connectString;                  //zk服务器列表。多个用英文“,”逗号隔开 92.168.100.128:2181, 192.168.100.128:2182, 192.168.100.128:2183
     private static int   sessionTimeout;                 //session超时时间
-    private static Watcher watcher;
+    public static Watcher watcher;
 
     private ZooKeeperUtils(){};
 
