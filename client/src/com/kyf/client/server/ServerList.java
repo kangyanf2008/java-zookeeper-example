@@ -14,12 +14,15 @@ public class ServerList {
     private static String applicationName;
     //服务地址列表
     public static volatile List<ServerEntiy> serverList = new ArrayList<ServerEntiy>();
+    //服务器数据
     private static AtomicInteger serverNum = new AtomicInteger(0);
+    //轮询服务器索引下标
     private static AtomicInteger robinIndex = new AtomicInteger(0);
     private static Stat stat = new Stat();
     //初始化类参数
     public static void init(String applicationName) {
         ServerList.applicationName = applicationName;
+        //刷新服务器列表
         flushServerlist();
     }
 

@@ -12,6 +12,7 @@ public class ZooKeeperUtils {
 
     private ZooKeeperUtils(){};
 
+    //获取zk实例静态内部类
     private static class  ZooKeeperInstance {
         public static ZooKeeper zooKeeper;
         static {

@@ -9,6 +9,7 @@ import java.io.IOException;
 public class ServerInterfaceUtil {
 
 	public static Logger logger = Logger.getLogger(ServerInterfaceUtil.class);
+	//开启一个http服务端口
 	public static void publicServer(int serverPort){
 		try {
 			logger.info("开始启动服务");

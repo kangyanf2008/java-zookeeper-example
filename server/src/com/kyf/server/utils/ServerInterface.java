@@ -12,6 +12,7 @@ public class ServerInterface extends NanoHTTPD{
 
 	}
 
+	//http服务接口
 	@Override
 	public Response serve(IHTTPSession session) {
 		Map<String, String> parms = session.getParms();
