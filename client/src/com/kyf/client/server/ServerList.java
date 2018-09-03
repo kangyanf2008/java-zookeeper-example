@@ -89,15 +89,17 @@ public class ServerList {
         ServerEntiy serverEntiy = null;
         //先使用后累加
         int index = ServerList.robinIndex.getAndIncrement();
+
         //判断是否大小总服务器数。假如大于。则取会下标越界
         boolean status = true;
         while (status) {
             if (index > ServerList.serverNum.intValue() - 1 && ServerList.serverNum.intValue() > 0) {
-                //更新轮询下标值
+                //判断是否需要切新的一次轮询
                 synchronized (ServerList.robinIndex) {
                     if (ServerList.robinIndex.intValue() > ServerList.serverNum.intValue() - 1) {
                         ServerList.robinIndex = new AtomicInteger(0);
                     }
+                    //读取服务器存储列表下标索引
                     index = ServerList.robinIndex.getAndIncrement();
                 } // end synchronized
 
@@ -117,20 +119,26 @@ public class ServerList {
             }
         }
 
-        //判断服务器列表是否为空
+        //服务器刷新完需要再进行一次重读操作
         index = ServerList.robinIndex.getAndIncrement();
-        if(index < ServerList.serverNum.intValue()) {
+        if(index < ServerList.serverNum.intValue()  && ServerList.serverNum.intValue() > 0) {
             serverEntiy = serverList.get(index);
 //System.out.println(serverEntiy);
-        }
-        //更新轮询下标值
-        synchronized (ServerList.robinIndex) {
-            if (ServerList.robinIndex.intValue() > ServerList.serverNum.intValue() - 1) {
-                ServerList.robinIndex = new AtomicInteger(0);
+            return serverEntiy;
+        } else {
+            if(index >= ServerList.serverNum.intValue() && ServerList.serverNum.intValue() > 0){
+                synchronized (ServerList.robinIndex) {
+                    if (ServerList.robinIndex.intValue() > ServerList.serverNum.intValue() - 1) {
+                        ServerList.robinIndex = new AtomicInteger(0);
+                    }
+                    index = ServerList.robinIndex.getAndIncrement();
+                } // end synchronized
+                //读取服务器存储列表下标索引
+                serverEntiy = serverList.get(index);
             }
         }
-        return serverEntiy;
 
+        return serverEntiy;
     }
 
 
