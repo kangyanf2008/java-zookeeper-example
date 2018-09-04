@@ -7,7 +7,7 @@ import org.apache.zookeeper.*;
 public class ServerBootStrap {
     public static void main(String[] args) {
         String applicationName  = "/server" ;
-        int serverPort = 65530;
+        int serverPort = 65536;
         //开启服务地址
         String serverAddress  = "192.168.30.19:"+serverPort ;
         //zk连接地址
